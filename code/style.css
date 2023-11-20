@@ -1,0 +1,26 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+
+.description {
+  display: none;
+}
+
+.active + .description {
+  display: block;
+}
+
+.title {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.description {
+  background-color: #ecf0f1;
+  padding: 10px;
+  margin: 5px;
+}
